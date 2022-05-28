@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
-
+//${({ scrollNav}) => (scrollNav ? '#000' : 'transparent')};
 export const Nav = styled.nav`
 background: #000;
 height: 80px;
@@ -83,11 +83,11 @@ padding:0 1rem;
 height:100%;
 cursor:pointer;
 
-&.active{
+{/*&:active {
     border-bottom: 3px solid #01bf71;
-}
+}*/}
 
-`; 
+`;
 
 export const NavBtn = styled.nav`
 display:flex;

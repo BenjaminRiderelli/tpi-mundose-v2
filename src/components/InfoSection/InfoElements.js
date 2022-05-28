@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
-color: #fff;
-background: ${({ lightBg }) => (lightBg? '#f9f9f9' : '#010606' )};
+color:'#fff';
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606' )};
 
 @media screen and (max-width: 768px){
     padding: 100px 0;
@@ -96,5 +96,6 @@ height: 100%;
 `
 export const Img = styled.img`
 width:100%;
-margin: 0 0 10px;
+margin: 0 0 10px 0;
+padding-right: 0;
 `
