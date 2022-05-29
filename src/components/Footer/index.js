@@ -32,60 +32,7 @@ const Footer = () => {
 
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>     
-                            Mendoza Crece
-                            </FooterLinkTitle>
-                                <FooterLink to="/signin"> Iniciativa ambiental</FooterLink>
-                                <FooterLink to="/signin">  </FooterLink>
-                                <FooterLink to="/signin"> rchitecto beatae </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae</FooterLink>
-  
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>     
-                            Quienes Somos
-                            </FooterLinkTitle>
-                                <FooterLink to="/signin"> Leonel Saavedra</FooterLink>
-                                <FooterLink to="/signin"> Benjamin Riderelli </FooterLink>
-                                <FooterLink to="/signin"> Y muchos más </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae</FooterLink>
-  
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>     
-                            Redes Sociales
-                            </FooterLinkTitle>
-                                <FooterLink to="/signin"> Twitter</FooterLink>
-                                <FooterLink to="/signin"> Facebook </FooterLink>
-                                <FooterLink to="/signin"> Instagram </FooterLink>
-                                <FooterLink to="/signin">TikTok </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae </FooterLink>
-                                <FooterLink to="/signin">rchitecto beatae</FooterLink>
-  
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>     
-                            Patrocinadores
-                            </FooterLinkTitle>
-                                <FooterLink to="/signin"> Finca La encantada</FooterLink>
-                                <FooterLink to="/signin"> Pulmary Guest House</FooterLink>
-                                <FooterLink to="/signin"> El Viejo Manzano</FooterLink>
-                                <FooterLink to="/signin">Finca Los Arrieros </FooterLink>
-                                <FooterLink to="/signin">Posada Estilo campo</FooterLink>
-                                <FooterLink to="/signin">Park Hyatt Mendoza</FooterLink>
-  
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>           
-                </FooterLinksContainer>
+                
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>
