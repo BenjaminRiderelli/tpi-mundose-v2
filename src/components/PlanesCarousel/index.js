@@ -18,7 +18,7 @@ const PlanesCarousel = () =>{
 
     return (
 
-        <PlanesSection>
+        <PlanesSection id='fotos'>
             <PlanesWrapper>
                 <SliderWrapper>
                     <Slider responsive={responsive} showArrows={true} autoSlide={false} className="SliderComponent">                   

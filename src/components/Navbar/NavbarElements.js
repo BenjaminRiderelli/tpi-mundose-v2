@@ -101,7 +101,7 @@ align-items:center;
 }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkS)`
 border-radius:50px;
 background: #E0752F;
 white-space: nowrap;

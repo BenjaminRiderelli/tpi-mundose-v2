@@ -7,8 +7,8 @@ import './style.css'
 
 const AccordionSection = () => {
   return (
-  <AccordionDiv>
-            <Accordion defaultActiveKey="0" flush className="accordion">
+  <AccordionDiv id='planes'>
+            <Accordion  flush className="accordion">
         <Accordion.Item eventKey="0" className="accordion-item" >
             <Accordion.Header className="accordion-header" >Accordion Item #1</Accordion.Header>
             <Accordion.Body classNAme="accordion-body">

@@ -15,7 +15,7 @@ const InicioSection = () => {
 
 
   return (
-    <InicioContainer id='home'>
+    <InicioContainer id='inicio'>
         <InicioBg>
             <VideoBg autoPlay muted src= {Video} type='video/mp4' /> 
         </InicioBg>
@@ -31,6 +31,7 @@ const InicioSection = () => {
              primary = "true"
              dark = "true"
              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+             href="//www.youtube.com/watch?v=N8Zc5ORQJ_Q" target="_blank"
              >
                Adelante! {hover ? <ArrowForward /> : <ArrowRight />}
              </Button>

@@ -4,7 +4,7 @@ import { SectionContainer, SectionContent, SectionH3, SectionSpan, SectionP, Sec
 const OnlyTextSection = () => {
   return (
 
-      <SectionContainer id='inicio'>
+      <SectionContainer id='actividades'>
         <SectionDiv>
 
             <SectionHeader>
