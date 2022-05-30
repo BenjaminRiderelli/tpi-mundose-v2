@@ -18,9 +18,6 @@ const FormSection = () => {
       const response = await fetch('http://ptsv2.com/t/j25ye-1652006436/post', {
         method: 'POST',
         body: JSON.stringify(inputs, textArea),
-        headers: {
-          'content-Type': 'text/plain;charset=UTF-8',
-        }
       });
       if (response.status !== 200) {
         throw new Error(`Request failed: ${response.status}`); 
