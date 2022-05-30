@@ -2,10 +2,12 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import InicioSection from '../components/InicioSection'
-import InfoSection from '../components/InfoSection'
-import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
-import Planes from '../components/Planes'
 import Footer from '../components/Footer'
+import OnlyTextSection from '../components/OnlyTextSection'
+import PlanesCarousel from '../components/PlanesCarousel'
+import AccordionSection from '../components/AccordionSection'
+import "bootstrap/dist/css/bootstrap.min.css"
+import FormSection from '../components/FormSection/FormSection'
 
 
 const Home = () => {
@@ -21,10 +23,10 @@ const Home = () => {
    <Sidebar isOpen={isOpen} toggle={toggle} />
    <Navbar toggle ={toggle} />
    <InicioSection />
-    <InfoSection {...homeObjOne}/>
-    <InfoSection {...homeObjTwo}/>
-    <Planes />
-    <InfoSection {...homeObjThree}/>
+    <OnlyTextSection />
+    <PlanesCarousel />
+    <AccordionSection />
+    <FormSection />
     <Footer />
    </>
   )

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
-import { IconContext } from 'react-icons'
+import { IconContext } from 'react-icons/lib'
 import {FaBars} from 'react-icons/fa'
-import {iconContext} from 'react-icons/lib'
+//import {iconContext} from 'react-icons/lib'
 import {animateScroll as scroll} from 'react-scroll'
 import {
      Nav,
@@ -35,7 +35,7 @@ const Navbar = ({toggle}) => {
 
   return (
     <>
-    <IconContext.Provider value = {{color: '#fff'}}>
+    <IconContext.Provider value = {{color: '#000'}}>
     
     
    

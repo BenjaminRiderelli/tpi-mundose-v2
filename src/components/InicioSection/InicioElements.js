@@ -9,7 +9,7 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
  justify-content: center;
  align-items:center;
  padding: 0 30px;
- height: 800px;
+ height: 880px;
  position: relative;
  z-index: 1;
 

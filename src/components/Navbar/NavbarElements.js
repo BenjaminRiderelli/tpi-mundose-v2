@@ -3,9 +3,10 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 //${({ scrollNav}) => (scrollNav ? '#000' : 'transparent')};
 export const Nav = styled.nav`
-background: #000;
+background: #F2F4F1;
 height: 80px;
-margin-top: -80;
+margin-top: 0;
+border-bottom: solid #E0752F 2px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -30,10 +31,10 @@ max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-color: #fff;
-justify-self: flex-start;
+
+color: #000;
 cursor: pointer;
-font-size: 1.5;
+font-size: 1.5rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
@@ -50,9 +51,9 @@ display:none;
     top:0;
     right:0;
     transform:translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor:pointer;
-    color:#fff;
+    color: #000;
 }
 `;
 
@@ -71,17 +72,19 @@ margin-right:-22px;
 
 export const NavItem = styled.li`
 height: 80px;
-margin:10px;
+
 `
 
 export const NavLinks = styled(LinkS)`
-color: #fff;
+margin:10px;
+color: #000;
 display: flex;
-align-items:center;
-text-decoration:none
+align-items: center;
+text-decoration:none;
 padding:0 1rem;
 height:100%;
 cursor:pointer;
+font-weight:700;
 
 {/*&:active {
     border-bottom: 3px solid #01bf71;
@@ -100,7 +103,7 @@ align-items:center;
 
 export const NavBtnLink = styled(LinkR)`
 border-radius:50px;
-background: #01bf71;
+background: #E0752F;
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;
