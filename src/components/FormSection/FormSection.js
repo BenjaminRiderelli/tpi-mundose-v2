@@ -15,7 +15,7 @@ const FormSection = () => {
       setInputs(values => ({...values, [name]: value}))
     }
     const saveFormData = async () => {
-      const response = await fetch('http://ptsv2.com/t/j25ye-1652006436/post', {
+      const response = await fetch('https://mendoza-api.herokuapp.com/api/usuario', {
         method: 'POST',
         body: JSON.stringify(inputs, textArea),
       });
