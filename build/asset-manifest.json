@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c559615.css",
+    "main.js": "/static/js/main.f0212e33.js",
+    "static/media/video.mp4": "/static/media/video.76510f3d4ff1878e08a6.mp4",
+    "static/media/mendoza-4.png": "/static/media/mendoza-4.e5a780eb689ab90c40e0.png",
+    "static/media/mendoza-3.jpg": "/static/media/mendoza-3.437a4431da77eafbcbc3.jpg",
+    "static/media/mendoza-1.jpg": "/static/media/mendoza-1.3b7cc9151118968e2510.jpg",
+    "static/media/mendoza-2.jpg": "/static/media/mendoza-2.df878d2156f7edc73d06.jpg",
+    "static/media/mendoza-6.jpg": "/static/media/mendoza-6.f00fd78cf87b8fee5e4c.jpg",
+    "index.html": "/index.html",
+    "main.6c559615.css.map": "/static/css/main.6c559615.css.map",
+    "main.f0212e33.js.map": "/static/js/main.f0212e33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c559615.css",
+    "static/js/main.f0212e33.js"
+  ]
+}
