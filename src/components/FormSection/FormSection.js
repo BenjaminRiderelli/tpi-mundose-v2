@@ -17,6 +17,7 @@ const FormSection = () => {
     const saveFormData = async () => {
       const response = await fetch('https://apirest-mundoe.herokuapp.com/api/cliente', {
         method: 'POST',
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(inputs, textArea),
       });
       if (response.status !== 200) {
