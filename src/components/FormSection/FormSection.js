@@ -58,7 +58,7 @@ const FormSection = () => {
             
             <FormContainer>
 
-                <Form onSubmit={handleSubmit}>
+                <Form name="form completo" onSubmit={handleSubmit} method="POST" data-netlify="true">
 
                    <FormWrapper>
 
