@@ -112,6 +112,7 @@ border:none;
 border-radius: 4px;
 background:transparent;
 border-bottom: solid 2px #DCE1DA;
+outline:none;
 `
 
 export const FormButton = styled.button`
@@ -129,6 +130,8 @@ cursor:pointer;
 export const FormTextArea = styled.textarea`
 
 border:none;
+outline:none;
+border-bottom: solid 2px #DCE1DA;
 border-radius: 4px;
 background:transparent;
 

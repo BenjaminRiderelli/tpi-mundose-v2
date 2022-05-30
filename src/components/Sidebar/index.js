@@ -12,7 +12,7 @@ const Sidebar = ({isOpen, toggle}) => {
     <SidebarWrapper>
       <SidebarMenu>
         <SidebarLink to="inicio" onClick={toggle}>
-            About
+            Inicio
         </SidebarLink>
         <SidebarLink to="actividades" onClick={toggle}>
             Actividades
@@ -25,7 +25,7 @@ const Sidebar = ({isOpen, toggle}) => {
         </SidebarLink>
       </SidebarMenu> 
       <SideBtnWrap>
-        <SidebarRoute to="/signin" onClick={toggle}>
+        <SidebarRoute to="form" onClick={toggle}>
             Escribenos!
         </SidebarRoute>
       </SideBtnWrap>           
