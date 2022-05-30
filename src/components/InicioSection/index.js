@@ -21,7 +21,7 @@ const InicioSection = () => {
         </InicioBg>
         <InicioContent>
           <InicioH1>
-            Mendoza, un destino único
+            Mendoza, un destino único TEST
           </InicioH1>
            <InicioP>  
            Escribenos para recibir nuestro newsletter y conocer todas las oportunidades que esconde esta maravillosa ciudad.  
