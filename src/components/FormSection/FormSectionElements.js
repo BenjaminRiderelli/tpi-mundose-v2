@@ -58,6 +58,7 @@ export const FormWrapper = styled.div`
 margin-top:0px;
 display: grid;
 background:transparent;
+box-sizing:border-box;
 
 
 `

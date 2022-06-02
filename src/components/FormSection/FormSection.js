@@ -1,6 +1,20 @@
 import React from 'react'
 import {useState} from 'react'
-import { Container,ImgWrap, Img, FormContainer, Form, Wrapper,FormH1,FormLabel,FormInput,FormButton, FormWrapper, OrangeTitle, FormTextArea } from './FormSectionElements'
+import { 
+  Container,
+  ImgWrap, 
+  Img, 
+  FormContainer, 
+  Form, 
+  Wrapper,
+  FormH1,
+  FormLabel,
+  FormInput,
+  FormButton, 
+  FormWrapper, 
+  OrangeTitle, 
+  FormTextArea 
+} from './FormSectionElements'
 import Img1 from '../../images/mendoza-6.jpg'
 
 
@@ -85,11 +99,14 @@ const FormSection = () => {
                    ></FormInput>
 
                    <FormLabel htmlFor='for'>Email</FormLabel>
-                   <FormInput                                    class="input-text"                                     type="email" required
-                    placeholder=""
-                    name="email"
-                    value={inputs.email || ""}
-                    onChange={handleChange}></FormInput>
+                   <FormInput    
+                                    class="input-text"  
+                                    type="email" required
+                                    placeholder=""
+                                    name="email"
+                                    value={inputs.email || ""}
+                                    onChange={handleChange}
+                    ></FormInput>
 
                    <FormLabel htmlFor='for'>Tu comentario</FormLabel>
                    <FormTextArea
