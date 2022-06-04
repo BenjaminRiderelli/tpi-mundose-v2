@@ -41,7 +41,7 @@ const FormSection = () => {
     const saveFormData = async () => {
       const response = await fetch('https://api-mendoza.herokuapp.com/api/usuario', {
         method: 'POST',
-        //headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(inputs),
         //, textArea
       });
