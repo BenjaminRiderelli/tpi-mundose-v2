@@ -20,7 +20,7 @@ import Img1 from '../../images/mendoza-6.jpg'
 
 const FormSection = () => {
     const [inputs, setInputs] = useState({});
-    const [textArea, setTextarea] = useState("");
+   // const [textArea, setTextarea] = useState("");
     console.log(inputs)
    // console.log(textArea)
   
@@ -39,7 +39,7 @@ const FormSection = () => {
   
 
     const saveFormData = async () => {
-      const response = await fetch('http://ptsv2.com/t/j25ye-1652006436/post', {
+      const response = await fetch('https://api-mendoza.herokuapp.com/api/usuario', {
         method: 'POST',
         //headers: { "Content-Type": "application/json" },
         body: JSON.stringify(inputs),
@@ -56,7 +56,8 @@ const FormSection = () => {
         await saveFormData ()
         alert("Gracias!, pronto nos contactaremos contigo");
         setInputs("")
-        setTextarea("")}
+        //setTextarea("")
+      }
   
         catch (event) {
           alert(`Request failed: ${event.message}`);
