@@ -21,27 +21,35 @@ import Img1 from '../../images/mendoza-6.jpg'
 const FormSection = () => {
     const [inputs, setInputs] = useState({});
     const [textArea, setTextarea] = useState("");
-    
+    console.log(inputs)
+   // console.log(textArea)
   
     const handleChange = (event) => {
       const name = event.target.name;
       const value = event.target.value;
       setInputs(values => ({...values, [name]: value}))
     }
+
+    // const handleTextArea = (event) => {
+     
+    //   const name = event.target.name
+    //   const value = event.target.value
+    //   setTextarea (value);
+    // }
+  
+
     const saveFormData = async () => {
       const response = await fetch('https://api-mendoza.herokuapp.com/api/usuario', {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(inputs, textArea),
+        body: JSON.stringify(inputs),
+        //, textArea
       });
       if (response.status !== 200) {
         throw new Error(`Request failed: ${response.status}`); 
       }
     }
-    const handleTextArea = (event) => {
-      setTextarea(event.target.value);
-    }
-  
+
     const handleSubmit = async (event) => {
       event.preventDefault();
       try {
@@ -90,7 +98,7 @@ const FormSection = () => {
                                       <FormLabel htmlFor='for'>Teléfono</FormLabel>
                    <FormInput 
                                      class="input-text" 
-                                     type="text" 
+                                     type="number" 
                                      placeholder=""
                                      name="telefono"
                                      value={inputs.telefono || ""}
@@ -115,8 +123,8 @@ const FormSection = () => {
                                      id="" 
                                      cols="30" 
                                      rows="2"
-                                     value={textArea}
-                                     onChange={handleTextArea}
+                                     value={inputs.mensaje || ""}
+                                     onChange={handleChange}
                    
                    
                    
