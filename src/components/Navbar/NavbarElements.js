@@ -38,8 +38,11 @@ font-size: 1.5rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
-fontweight: bold;
+fontweight: 700;
 text-decoration: none;
+&:hover{
+    color:#E0752F;
+    transition: 0.3 ease-out
 `;
 
 export const MobileIcon = styled.div`
@@ -85,6 +88,9 @@ padding:0 1rem;
 height:100%;
 cursor:pointer;
 font-weight:700;
+&:hover{
+    color:#E0752F;
+    transition: 0.3 ease-out
 
 {/*&:active {
     border-bottom: 3px solid #01bf71;
